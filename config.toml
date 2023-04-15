@@ -13,7 +13,7 @@ description = 'Matching swimwear for the entire family'
 #startbuttonLink = "#"
 body_is_markdown = true
 #custom_css = "foo.css"
-#images = "/images/bg.jpg"
+images = "images/banner.jpg"
 
 [[params.menu.main]]
 url = '/'
