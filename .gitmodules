@@ -1,0 +1,9 @@
+[submodule "hugo-theme-massively"]
+	path = hugo-theme-massively
+	url = https://github.com/curtiscde/hugo-theme-massively
+[submodule "themes/hugo-scroll"]
+	path = themes/hugo-scroll
+	url = https://github.com/zjedi/hugo-scroll.git
+[submodule "themes/spectral"]
+	path = themes/spectral
+	url = https://github.com/sbruder/spectral
