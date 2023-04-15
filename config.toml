@@ -1,0 +1,148 @@
+baseURL = "/"
+title = "Isla & Ray"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+paginate = "7"
+theme = "spectral"
+
+[params]
+fancyTitle = "Isla & Ray" # title for frontpage, may include image
+copyright = "Isla & Ray"
+description = 'Matching swimwear for the entire family'
+#startbuttonText = "Activate"
+#startbuttonLink = "#"
+body_is_markdown = true
+#custom_css = "foo.css"
+#images = "/images/bg.jpg"
+
+[[params.menu.main]]
+url = '/'
+title = "Home"
+
+# [[params.menu.main]]
+# url = '/posts/'
+# title = "Posts"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+
+[params.one]
+enable = true
+title = 'Vacation Mode: Activated'
+body = '''
+Going on a family vacation is a special experience that creates lifelong memories. It's a chance to disconnect from the hustle and bustle of everyday life and focus on spending quality time with loved ones. With no alarm clocks or to-do lists, the days are filled with outdoor adventures, relaxing by the pool or beach, and simply enjoying the moment. There's something about being barefoot and feeling the sand between your toes that puts you in a vacation state of mind. Whether it's trying new foods, exploring new places, or just being present with each other, a family vacation is a time to cherish and savor. As Dr. Seuss said, "Sometimes you will never know the value of a moment until it becomes a memory.
+'''
+
+#[[params.one.icon]]
+#icon = "fa-diamond"
+#style = "1"
+#label = "Lorem"
+#
+#[[params.one.icon]]
+#icon = "fa-heart-o"
+#style = "2"
+#label = "Ipsum"
+#
+#[[params.one.icon]]
+#icon = "fa-code"
+#style = "3"
+#label = "Dolor"
+
+[params.two]
+enable = true
+
+[[params.two.section]]
+img = "images/img1.jpg"
+title = "Picture Perfect"
+body = 'Our designs are inspired by the joy and freedom of vacation, with playful patterns and bright colors that capture the essence of summer fun. Whether you prefer classic stripes, tropical prints, or playful graphics, our swimsuits are designed to make you look and feel your best in and out of the water.'
+
+[[params.two.section]]
+img = "images/img2.jpg"
+title = 'Quality Matters'
+body = 'Our swimsuits are made with high-quality materials that ensure comfort and durability all season long. We prioritize quality in every aspect of our business, from the materials we use to the customer service we provide.'
+
+[[params.two.section]]
+img = "images/img3.jpg"
+title = 'Sustainability'
+body = "The only thing we should leave behind is our footprints in the sand. Our swimsuits are made with recycled material made from plastic bottles so there's no shame in looking this good!"
+
+# [params.three]
+# enable = true
+# title = 'Accumsan mus tortor nunc aliquet'
+# body = '''
+# Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend  
+# fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.
+# '''
+
+# [[params.three.feature]]
+# icon = "fa-paper-plane-o"
+# title = "Arcu accumsan"
+# body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+# [[params.three.feature]]
+# icon = "fa-laptop"
+# title = "Ac Augue Eget"
+# body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+# [[params.three.feature]]
+# icon = "fa-code"
+# title = "Foo bar"
+# body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+# [[params.three.feature]]
+# icon = "fa-headphones"
+# title = "Baz kram"
+# body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+# [[params.three.feature]]
+# icon = "fa-heart-o"
+# title = "Some latin text"
+# body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+# [[params.three.feature]]
+# icon = "fa-flag-o"
+# title = "Nothing important"
+# body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+# [params.cta]
+# enable = true
+# title = "Arcue ut vel commodo"
+# body = "Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla."
+
+# [[params.cta.link]]
+# href = "#"
+# text = "Activate"
+# special = true
+
+# [[params.cta.link]]
+# href = "#"
+# text = "Learn More"
+# special = false
+
+# [params.contact]
+# enable = true
+# title = "Contact"
+# body = "Leave us a message."
+# #phone = "+49 (0) 030 000 000"
+# #address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
+# email = "andrea.scannell@islaandray.com"
+# subject = "Hello Isla & Ray"
+# formspree_form_id = "example_invalid"
+
+[params.social]
+twitter = ""
+facebook = ""
+instagram = ""
+dribble = ""
+
+# language specific options
+
+[languages.en]
+weight = 0
+languageName = "English"
+
+[languages.de]
+weight = 10
+languageName = "Deutsch"
