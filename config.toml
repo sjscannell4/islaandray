@@ -6,7 +6,7 @@ paginate = "7"
 theme = "spectral"
 
 [params]
-fancyTitle = "Isla & Ray" # title for frontpage, may include image
+#fancyTitle = "Isla & Ray" # title for frontpage, may include image
 copyright = "Isla & Ray"
 description = 'Matching swimwear for the entire family'
 #startbuttonText = "Activate"
@@ -32,7 +32,7 @@ title = "Home"
 enable = true
 title = 'Vacation Mode: Activated'
 body = '''
-Going on a family vacation is a special experience that creates lifelong memories. It's a chance to disconnect from the hustle and bustle of everyday life and focus on spending quality time with loved ones. With no alarm clocks or to-do lists, the days are filled with outdoor adventures, relaxing by the pool or beach, and simply enjoying the moment. There's something about being barefoot and feeling the sand between your toes that puts you in a vacation state of mind. Whether it's trying new foods, exploring new places, or just being present with each other, a family vacation is a time to cherish and savor. As Dr. Seuss said, "Sometimes you will never know the value of a moment until it becomes a memory.
+A family vacation is a time to cherish and savor. It's a chance to disconnect from the hustle and bustle of everyday life and focus on spending quality time with loved ones. With no alarm clocks or to-do lists, the days are filled with outdoor adventures, exploring new places, and simply enjoying the moment. There's something about being barefoot and feeling the sand between your toes that puts you in a vacation state of mind. Going on a family vacation is a special experience that creates lifelong memories. As Dr. Seuss said, "Sometimes you will never know the value of a moment until it becomes a memory.
 '''
 
 #[[params.one.icon]]

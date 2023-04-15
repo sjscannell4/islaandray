@@ -71,6 +71,8 @@
     --accent1: #2E3842;
 }
 
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -3725,6 +3727,58 @@ input, select, textarea {
 				position: absolute;
 				width: 1.5em;
 			}
+
+			#banner .logo {
+				background-image: url("../images/logo.png");
+				background-size: 20em 20em;
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				width: 20em;
+				height:20em;
+				/* -moz-transition: -moz-transform 0.75s ease, opacity 0.75s ease;
+				-webkit-transition: -webkit-transform 0.75s ease, opacity 0.75s ease;
+				-ms-transition: -ms-transform 0.75s ease, opacity 0.75s ease;
+				transition: transform 0.75s ease, opacity 0.75s ease;
+				-moz-transition-delay: 1.5s;
+				-webkit-transition-delay: 1.5s;
+				-ms-transition-delay: 1.5s;
+				transition-delay: 1.5s;
+				-moz-transform: translateY(0);
+				-webkit-transform: translateY(0);
+				-ms-transform: translateY(0);
+				transform: translateY(0);
+				border: none;
+				top: 0;
+				color: inherit;
+				font-size: 0.8em;
+				height: 8.5em;
+				left: 50%;
+				letter-spacing: 0.225em;
+				margin-left: -8.5em;
+				opacity: 1;
+				outline: 0;
+				padding-left: 0.225em;
+				position: absolute;
+				text-align: center;
+				text-transform: uppercase;
+				width: 16em;
+				z-index: 1;
+			}
+			#banner .logo:after {
+				background-image: url("../images/logo.png");
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: contain;
+				top: 4em;
+				content: '';
+				display: block;
+				/* height: 25%; */
+				/* left: 50%;
+				margin: 25% 25% 25% 25%;
+				position: absolute; */
+				/* width: 25%; */
+			} 
 
 		#banner:after {
 			pointer-events: none;
