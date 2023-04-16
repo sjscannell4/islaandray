@@ -52,12 +52,12 @@ body = "Vacation is a time to cherish and savor. It’s a chance to disconnect f
 enable = true
 
 [[params.two.section]]
-img = "images/img1.jpg"
+img = "images/matchingChairs.jpg"
 title = "Picture Perfect"
 body = 'Our designs are inspired by the joy and freedom of vacation, with playful patterns and bright colors that capture the essence of summer fun. Whether you prefer classic stripes, tropical prints, or playful graphics, our swimsuits are designed to make you look and feel your best in and out of the water.'
 
 [[params.two.section]]
-img = "images/img2.jpg"
+img = "images/sewing.jpg"
 title = 'Quality Matters'
 body = 'Our swimsuits are made with high-quality materials that ensure comfort and durability all season long. We prioritize quality in every aspect of our business, from the materials we use to the customer service we provide.'
 
