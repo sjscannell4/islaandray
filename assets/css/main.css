@@ -3500,6 +3500,16 @@ input, select, textarea {
 		z-index: 10000;
 	}
 
+		#header .logo {
+			background-image: url("../images/Logo_400_200_Dark.png");
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			background-size: 80px 40px;
+			width: 80px;
+			height:40px;
+		}
+
 		#header h1 {
 			-moz-transition: opacity 0.2s ease;
 			-webkit-transition: opacity 0.2s ease;
@@ -3729,13 +3739,13 @@ input, select, textarea {
 			}
 
 			#banner .logo {
-				background-image: url("../images/logo.png");
-				background-size: 20em 20em;
+				background-image: url("../images/Logo_400_200_Dark.png");
+				background-size: 200px 100px;
 				display: block;
 				margin-left: auto;
 				margin-right: auto;
-				width: 20em;
-				height:20em;
+				width: 200px;
+				height:100px;
 				/* -moz-transition: -moz-transform 0.75s ease, opacity 0.75s ease;
 				-webkit-transition: -webkit-transform 0.75s ease, opacity 0.75s ease;
 				-ms-transition: -ms-transform 0.75s ease, opacity 0.75s ease;
